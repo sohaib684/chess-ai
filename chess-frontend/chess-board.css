@@ -1,0 +1,49 @@
+body {
+    margin: 0px;
+    padding: 0px  ;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.chessboard {
+    height: 60vh;
+}
+/* For button decoration   */
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+ 
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4c8baf;
+  }
+  
+  .button1:hover {
+    background-color: #af6d4c;
+    color: white;
+  }
+
+  
+  .button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #ba0088;
+  }
+  
+  .button2:hover {
+    background-color: #001cba;
+    color: white;
+  }
