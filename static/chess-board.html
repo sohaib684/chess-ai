@@ -2,8 +2,8 @@
 <html>
     </html>
     <head> 
-        <link rel="stylesheet" href="chess-board.css">
-        <link rel="stylesheet" href="css/chessboard-1.0.0.min.css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='chess-board.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/chessboard-1.0.0.min.css') }}">
     </head>
     <body>
         <div id="board1" style="width: 600px"></div>
@@ -18,8 +18,8 @@
             integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
             crossorigin="anonymous"
         ></script>
-        <script src="chess.js"></script>
-        <script src="js/chessboard-1.0.0.min.js"></script>
-        <script src="game.js"></script>
+        <script src="{{ url_for('static', filename='chess.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/chessboard-1.0.0.js') }}"></script>
+        <script src="{{ url_for('static', filename='game.js') }}"></script>
     </body>
 </html>
