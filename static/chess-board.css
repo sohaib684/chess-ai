@@ -6,6 +6,8 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background: url(img/background.jpg);
+    background-size: cover;
 }
 
 .chessboard {
