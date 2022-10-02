@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='css/chessboard-1.0.0.min.css') }}">
     </head>
     <body>
-        <div id="board1" style="width: 600px"></div>
+        <div id="myBoard" style="width: 600px"></div>
         <div>
 
             <button class="button button1">clear</button>
@@ -18,8 +18,7 @@
             integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
             crossorigin="anonymous"
         ></script>
-        <script src="{{ url_for('static', filename='chess.js') }}"></script>
         <script src="{{ url_for('static', filename='js/chessboard-1.0.0.js') }}"></script>
-        <script src="{{ url_for('static', filename='game.js') }}"></script>
+        <script type="module" src="{{ url_for('static', filename='game.js') }}"></script>
     </body>
 </html>
