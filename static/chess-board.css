@@ -34,7 +34,7 @@ body {
   }
   
   .button1:hover {
-    background-color: #af6d4c;
+    background-color: #4aaf2b;
     color: white;
   }
 
@@ -42,10 +42,10 @@ body {
   .button2 {
     background-color: white; 
     color: black; 
-    border: 2px solid #ba0088;
+    border: 2px solid #ee1ab5;
   }
   
   .button2:hover {
-    background-color: #001cba;
+    background-color: #ba0000;
     color: white;
   }
